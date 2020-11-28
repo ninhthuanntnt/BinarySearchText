@@ -18,7 +18,7 @@ public class DataFile implements Comparable<DataFile> {
     public DataFile(String word, int[] row) {
         this.word = word;
         this.row = row;
-        this.count = 0;
+        this.count = 1;
     }
 
     public DataFile(String word, int count, int[] row) {
